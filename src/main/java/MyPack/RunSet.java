@@ -2,6 +2,7 @@ package MyPack;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -23,19 +24,19 @@ public class RunSet {
 
     }
 
-
+    //Function that finds the Ask Bid and Asked prices.
     @Test(priority = 1)
-    public void GetUrl() {
+    public void GetPrice() {
 
 
 WebDriver driver = new ChromeDriver();
 
-TradePrice.price(driver).booleanValue();
+TradePrice.price(driver);
 
 
 
 }
-
+    //Function that finds the currency rates and prints them .
 @Test(priority = 2)
     public void test2(){
     WebDriver driver = new ChromeDriver();
@@ -49,8 +50,11 @@ TradePrice.price(driver).booleanValue();
 
 }
 
-
-
+    @Test(priority = 3)
+public void test3(){
+        WebDriver driver = new ChromeDriver();
+        ReadFromConf.Read(driver);
+    }
 
 
     }

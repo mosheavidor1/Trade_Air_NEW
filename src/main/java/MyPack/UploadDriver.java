@@ -8,15 +8,11 @@ public class UploadDriver {
     public static final String upload2= "C:\\Selenium\\chromedriver.exe";
 
 
-    public static void FirefoxD(WebDriver driver){
 
-
-
-        // WebDriverManager.firefoxdriver().setup();
     }
 
 
 
-}
+
 
 

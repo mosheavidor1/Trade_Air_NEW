@@ -1,3 +1,13 @@
-URL=http:\\google.com
-Username=moshe
-Password=123
+URL=https://demo-new.tradair.com/app
+Username=TestUser
+Password=TestUser123
+
+BUY1=USD_ILS
+BUY2=EUR_GBP
+BUY3=EUR_MXN
+BUY4=AUD_USD
+
+SELL1=USD_ILS
+SELL2=EUR_GBP
+SELL3=EUR_MXN
+SELL4=AUD_USD
